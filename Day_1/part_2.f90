@@ -32,6 +32,4 @@ program part_2
             end do
         end do 
     end do 
-
-
 end program part_2

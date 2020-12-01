@@ -29,6 +29,4 @@ program part_1
             end associate
         end do 
     end do 
-
-
 end program part_1
