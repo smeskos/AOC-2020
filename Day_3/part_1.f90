@@ -2,7 +2,7 @@ program part_1
     implicit none
     character(len=*), parameter :: fname = "geology.input"
     character(len=1), parameter :: sharp = "#"
-    character(len=31) :: text 
+    character(len=100) :: text 
     integer :: funit, io, encounters, length, start, end 
  
     open(newunit=funit, file=fname, action='read', access='sequential')
